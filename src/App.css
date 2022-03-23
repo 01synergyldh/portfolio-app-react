@@ -1,0 +1,208 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+body{
+  /* font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Montserrat', sans-serif; */
+  font-family: 'Titillium Web', sans-serif;
+}
+.main-header{
+  background-color: transparent !important;
+  border-radius: 0px !important;
+  border-bottom: 0px solid transparent !important;
+  border-top: 0px solid transparent !important;
+  z-index: 999999;
+    position: relative;
+    font-family: 'Titillium Web', sans-serif;
+}
+.topheader{
+  background-color:#000000 !important;
+}
+.toggleBtn{
+  color: #ffffff !important;
+  border-color: none !important;
+}
+.toggleBtn:focus {
+  box-shadow: 0;
+}
+.main-header .nav-link {
+  color: #ffffff !important;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Hero section */
+#hero{
+  background: #000000;
+  font-family: 'Titillium Web', sans-serif;
+}
+#hero .h-main-row{
+  position: relative;
+    top: -3rem;
+}
+.intro-text{
+  font-size: 6rem;
+    color: white;
+    line-height: 85.1px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+.arrowIcon{
+  text-align: end;
+    font-size: 46px;
+    color: #ffffff;
+    line-height: 1;
+}
+.arrowIcon svg{
+  transform: rotate(45deg);
+}
+.h-designation{
+  color: white;
+    line-height: 1;
+}
+.show-critive-circule{
+  padding: 77px;
+    border: 2px solid #817878;
+    width: 248px;
+    font-size: 17px;
+    font-weight: 600;
+    color: #4c4848;
+    border-radius: 50%;
+    border-right: 0px;
+    height: 248px;
+    transform: rotate(-79deg);
+    position: relative;
+    left: 5rem;
+    top: 5rem;
+    border-bottom: 0;
+}
+.show-critive-text{
+  transform: rotate(78deg);
+  text-transform: uppercase;
+}
+.work-date{
+  position: absolute;
+    top: 19rem;
+    left: 15rem;
+    display: inline-flex;
+    color: white;
+    align-items: center;
+}
+.work-date h1{
+  color: white;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+    font-size: 6rem;
+    font-weight: 700;
+    margin-right: 14px;
+}
+.info-text{
+  width: 33%;
+    color: #b1b1b1;
+    text-align: left;
+    position: relative;
+    top: 0rem;
+    left: 16rem;
+}
+
+/* selected-work */
+#selected-work{
+  background-color: #000000;
+  padding: 8rem 0rem 1rem;
+}
+#selected-work h1{
+  text-align: left;
+    font-size: 7rem;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1;
+}
+#selected-work h3{
+  font-size: 25px;
+    color: #fff;
+}
+#selected-work .work-text{
+  margin-left: 3rem;
+    color: #b9b2b2;
+}
+#selected-work img{
+  width: 100%;
+    height: 130px;
+}
+#selected-work .work-space{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+/* awards */
+#awards{
+  background-color: #000000;
+  padding: 10rem 0rem 1rem;
+  color: #fff;
+}
+#awards h1{
+  text-align: left;
+    font-size: 7rem;
+    font-weight: 700;
+    color: #fff;
+    line-height: 1;
+}
+#awards .list-group-item {
+  position: relative;
+  display: block;
+  padding: 3px 1rem;
+  color: #ffffff;
+  text-decoration: none;
+  background-color: #000;
+  border: 0px solid rgba(0,0,0,.125);
+}
+/* about */
+#about{
+  background-color: #000000;
+    padding: 10rem 20rem 1rem;
+    color: #fff;
+}
+#about h1 {
+  font-size: 7rem;
+  font-weight: 700;
+  text-align: left;
+}
+/* Footer */
+#footer{
+  background-color: #000000;
+    padding: 6rem 0rem 1rem;
+}
+#footer .card{
+  border-radius: 0px;
+    padding: 1rem 9rem;
+    background: #f6f0e2;
+}
+#footer .card-header:first-child{
+  border: 0px;
+  background: #f6f0e2;
+}
+#footer .list-group-item{
+  background-color: transparent;
+  border: 0px;
+}
